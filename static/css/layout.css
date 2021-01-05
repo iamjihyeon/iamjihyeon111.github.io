@@ -3,7 +3,7 @@
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    line-height: 21px;
+    line-height: 20px;
     color: rgb(48, 48, 48);
     border-top: 5px solid #27a822;
     border-bottom: 5px solid #27A822;
@@ -46,19 +46,19 @@ header > h1, section > h1 {
 header > h1 {
     line-height: 100%;
     font-size: 250%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container > header p, .container > header address {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container > header p:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section > h1 {

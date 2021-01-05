@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>{{ site.title }}</title>
@@ -21,45 +22,28 @@
     <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
-
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-        <a class="navbar-brand" href="{{ site.url }}">JH.Kim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="{{ site.url }}">Home</a>
-            <a class="nav-item nav-link" href="{{ site.baseurl }}resume.html">Resume</a>
-            <a class="nav-item nav-link" href="{{ site.baseurl }}projects.html">Projects</a>
-            <a class="nav-item nav-link disabled" href="{{ site.baseurl }}blog.html">Blog</a>
-            </div>
-        </div>
-    </div>
-        </nav>
-
-
 </head>
 <body>
 <div class="container">
+    
     <header class="three columns">
-        <img src="{{ site.baseurl }}static/img/profile_resume.png" class="me">
-        <h1>{{ site.name }}</h1>
-        <address>
-            <a href="{{ site.google_maps }}">
+        <p style="text-align: center;">
+        <img src="{{ site.baseurl }}static/img/profile_resume.png" class="me" style="text-align: center;">
+        </p>
+        <h1 style="text-align: center;">{{ site.name }} </h1>
+        <address style="text-align: center;">
+            <a href="{{ site.google_maps }}" >
                 {{ site.address.city }},
                 {{ site.address.country }}
             </a>
         </address>
-        <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
+        <p style="text-align: center;">
+            <a href="{{ site.website_full }}"  >{{ site.website }}</a><br/>
         </p>
-        <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a>
+        <p style="text-align: center;">
+            <a href="{{ site.email_full }}" >{{ site.email }}</a><br/>
+            <a href="https://github.com/{{ site.github }}" ><i class="fa fa-github"></i> Github</a> /
+            <a href="http://linkedin.com/in/{{ site.linkedin }}"> <i class="fa fa-linkedin"></i> Linkedin</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
