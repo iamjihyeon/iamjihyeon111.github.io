@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 a {
@@ -141,4 +141,74 @@ em {
 footer p {
     margin-bottom: 10px;
     font-size: 10pt;
+}
+
+
+
+/*********************/
+
+/* //
+// .masthead
+// */
+
+.wrapper-masthead {
+  margin-bottom: 25px;
+}
+
+.masthead {
+  padding: 20px 0;
+  @include mobile {
+    text-align: center;
+  }
+}
+
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 10px; 
+  font-size: 18px;
+  @include mobile {
+    text-align: center;
+  }
+}
+nav > a {
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 1px;
+    @include mobile {
+        text-align: center;
+      }
 }

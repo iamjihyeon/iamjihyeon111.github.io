@@ -14,41 +14,66 @@
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  -->
 
     <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
     <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-        
-          <nav>
-            <a href="{{ site.url }}">Home </a>
-            <a href="{{ site.baseurl }}resume.html">Resume</a>
-            <a href="{{ site.baseurl }}projects.html">Projects</a>
-            <a href="{{ site.baseurl }}blog.html">Blog</a>
-          </nav>
-        </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
       </div>
-    </div> -->
+    </nav>
 
-
-    <div class="wrapper-masthead">
-      <div class="container">
-          <nav>
-            <a href="{{ site.url }}">Home </a>
-            <a href="{{ site.baseurl }}resume.html">Resume</a>
-            <a href="{{ site.baseurl }}projects.html">Projects</a>
-            <a href="{{ site.baseurl }}blog.html">Blog</a>
-          </nav>
+<nav class="navbar navbar-defaultnavbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ site.url }}">JH.Kim</a>
       </div>
-    </div>
-    
-
       
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="{{ site.url }}">Home </a>
+              </li>
+              <li><a href="{{ site.baseurl }}resume.html">Resume</a>
+              </li>
+              <li><a href="{{ site.baseurl }}projects.html">Projects</a>
+              </li>
+              <li><a href="{{ site.baseurl }}blog.html">Blog</a>
+              </li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+
+
+
 </head>
 <body>
 <div class="container">
