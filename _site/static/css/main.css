@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 4px solid #27A822;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -23,7 +23,7 @@ body {
 -------------------------------------------------- */
 
 .navbar-static-top {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .navbar-default {
   background-color: #ffffff;
@@ -31,18 +31,23 @@ body {
 }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
+  font-size: 185%!important;
+  /* padding : 15px; */
+
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
+  color: #000000;
 }
 .navbar-default .navbar-text {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a {
   color: #6b6b6b;
+  font-size: 20px;
+  /* padding: 15px; */
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
+  color: #000000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #6b6b6b;
@@ -90,10 +95,10 @@ body {
 .container {
   width: auto;
   max-width: 800px;
-  text-align: center;
+  text-align: left;
 }
 .container .text-muted {
-  margin: 20px 0;
+  margin: 20px;
 }
 .container a {
   color: #27A822;
@@ -140,7 +145,13 @@ body {
   color: #000000;
 }
 .avatar {
-  padding-top: 5%;
+  width: 90% !important;  
+  height : 90% !important;  
+  max-width: 100px !important;  
+  max-height: 100px !important; 
+  position: absolute;
+  top: 40%;
+  right: 37%;
 }
 .blog-post{
   padding-top: 15px;
