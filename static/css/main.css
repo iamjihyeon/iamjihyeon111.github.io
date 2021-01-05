@@ -96,12 +96,14 @@ body {
   width: auto;
   max-width: 800px;
   text-align: left;
+
 }
 .container .text-muted {
   margin: 20px;
 }
 .container a {
   color: #27A822;
+  right: 10%;
 }
 .container a:hover {
   color: #267723;
@@ -145,13 +147,13 @@ body {
   color: #000000;
 }
 .avatar {
-  width: 90% !important;  
+  /* width: 90% !important;  
   height : 90% !important;  
   max-width: 100px !important;  
-  max-height: 100px !important; 
-  position: absolute;
-  top: 40%;
-  right: 37%;
+  max-height: 100px !important;  */
+  position: relative;
+  top: 20%;
+  left: 50%; 
 }
 .blog-post{
   padding-top: 15px;
