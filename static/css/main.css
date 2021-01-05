@@ -44,7 +44,7 @@ body {
 .navbar-default .navbar-collapse .navbar-nav > li > a {
   color: #6b6b6b;
   font-size: 20px;
-  padding: 15px;
+  padding: 30px;
 }
 .navbar-default .navbar-collapse .navbar-nav > li > a:hover, .navbar-default .navbar-collapse .navbar-nav > li > a:focus {
   color: #000000;
@@ -95,7 +95,7 @@ body {
 .container {
   width: auto;
   max-width: 800px;
-  text-align: left;
+  text-align: center;
 
 }
 .container .text-muted {
@@ -152,8 +152,9 @@ body {
   max-width: 100px !important;  
   max-height: 100px !important;  */
   position: relative;
-  bottom: 20%;
-  left: 35%; 
+  bottom: 10%;
+
+  /* align-self: auto; */
 }
 .blog-post{
   padding-top: 15px;
