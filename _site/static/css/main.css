@@ -21,19 +21,19 @@ body {
 
 /* Navbar
 -------------------------------------------------- */
-
+/* 
 .navbar-static-top {
   margin-bottom: 15px;
 }
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
+
 }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
   font-size: 185%!important;
-  padding : 15px;
-
+  /* padding : 15px; 
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #000000;
@@ -41,7 +41,7 @@ body {
 .navbar-default .navbar-text {
   color: #6b6b6b;
 }
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbarNav .navbar-nav > li > a {
   color: #6b6b6b;
   font-size: 20px;
   padding: 15px;
@@ -87,7 +87,7 @@ body {
     color: #6b6b6b;
     background-color: #ffffff;
   }
-}
+} */
 
 /* Custom page CSS
 -------------------------------------------------- */
