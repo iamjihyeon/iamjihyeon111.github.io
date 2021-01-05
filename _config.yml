@@ -8,16 +8,20 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
 safe: true
+url: http://iamjihyeon.github.io/
+author: Jihyeon Kim
 
 
 # edit here to achieve your personal greatness
 url: http://iamjihyeon.github.io/
 baseurl: 
+name: Jihyeon Kim
 title: Jihyeon Kim
 author: Jihyeon Kim
 description: Personal blog and resume
 avatar: profile.png
 email: jjihyeonnn@gmail.com
+email_full: mailto:jjihyeonnn@gmail.com
 github: iamjihyeon # username
 #twitter: username
 linkedin: iamjihyeon
@@ -25,7 +29,14 @@ linkedin: iamjihyeon
 #Comment out if you don't want disqus
 #disqus: username
 google_analytics: UA-69391421-1
-
+website: github.io/iamjihyeon
+website_full: https://iamjihyeon.github.io/
+google_maps: 'https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/data=!4m2!3m1!1s0x357ca2012d5c39cf:0x7e11eca1405bf29b?sa=X&ved=2ahUKEwj-ouPSmYTuAhXUxIsBHZZfB-0Q8gEwAHoECAMQAQ'
+address:
+  # street: 44 Perth Street
+  # postcode: EH3 5BL
+  city: Seoul
+  country: South Korea
 
 # needed for travis-ci build
 exclude: [vendor]
